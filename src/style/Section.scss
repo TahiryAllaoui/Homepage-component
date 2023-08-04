@@ -1,9 +1,111 @@
+@font-face {
+    font-family: 'Inter-bold';
+    src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Mid-bold';
+    src: url('../assets/fonts/static/Inter-Bold.ttf');
+}
+
+
+
+@import './color.scss';
+
 section {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
+    gap: 1rem;
+    height: 70%;
 
     .main-section {
-        width: 90%;
+        width: 100%;
+
+        .main-section-article {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+
+            h2 {
+                font-family: 'Inter-bold';
+                width: 45%;
+                margin-top: 0;
+                padding-top: 0;
+                font-size: 2.5rem;
+            }
+
+            .inner-section-article {
+                color: $Dark-grayish-blue;
+                width: 70%;
+                margin-top: 0;
+                padding-top: 0;
+
+                button {
+                    margin-top: 1rem;
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    border: 0;
+                    background-color: $soft-red;
+                    font-family: 'Inter-Mid-bold';
+                    color: white;
+                    width: 50%;
+                    height: 25%;
+
+                    span {
+                        font-family: 'Inter-Mid-bold';
+                        color: white;
+                    }
+
+                    &:hover {
+                        background-color: $Very-dark-blue;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .side-section {
+        background-color: $Very-dark-blue;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 50%;
+
+        .side-section-item {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 90%;
+
+            h2 {
+                color: $soft-orange;
+                font-family: 'Inter-Mid-bold';
+            }
+
+            .link {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+                gap: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: $Dark-grayish-blue;
+
+                    h2 {
+                        color: white;
+                        font-size: large;
+
+                        &:hover {
+                            color: $soft-orange;
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }

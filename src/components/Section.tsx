@@ -13,24 +13,28 @@ const Section = () => {
                         the power of the platforms back into the hands of the people.
                         But is it really fulfilling its promise?
                     </p>
-                    <button className="readme">READ MORE</button>
+                    <button className="readme">R E A D <span> M O R E</span></button>
                 </div>
             </div>
         </div>
         <div className="side-section">
-            <h2>New</h2>
-            <a href="#">
-                <h2>Hydrogen VS Electric Cars</h2>
-                Will hydrogen-fueled cars ever catch up to EVs?
-            </a>
-            <a href="#">
-                <h2>The Downsides of AI Artistry</h2>
-                What are the possible adverse effect of on-demand AI image generation?
-            </a>
-            <a href="#">
-                <h2>Is VC Funding Drying Up?</h2>
-                Private funding by VC firms is down 50% YOY. We take alook at what that means.
-            </a>
+            <div className="side-section-item">
+                <h2>New</h2>
+                <div className="link">
+                    <a href="#">
+                        <h2>Hydrogen VS Electric Cars</h2>
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </a>
+                    <a href="#" style={{ borderTop: '1px solid grey', borderBottom: '1px solid grey', paddingBottom: '1rem' }}>
+                        <h2 style={{ paddingTop: 0, marginTop: '1rem' }}>The Downsides of AI Artistry</h2>
+                        What are the possible adverse effect of on-demand AI image generation?
+                    </a>
+                    <a href="#">
+                        <h2>Is VC Funding Drying Up?</h2>
+                        Private funding by VC firms is down 50% YOY. We take alook at what that means.
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 };

@@ -1,0 +1,43 @@
+@import './color.scss';
+
+@font-face {
+    font-family: 'Inter-Mid-bold';
+    src: url('../assets/fonts/static/Inter-Bold.ttf');
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-item {
+        display: flex;
+        gap: 0.5rem;
+
+        .inner-footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            h2 {
+                color: $Grayish-blue;
+                padding: 0;
+                margin: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: $soft-red;
+                font-family: 'Inter-Mid-bold';
+                padding: 0;
+                margin: 0;
+            }
+
+            p {
+                color: $Dark-grayish-blue;
+                padding: 0;
+                margin: 0;
+            }
+
+        }
+    }
+}
