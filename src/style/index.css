@@ -1,0 +1,25 @@
+:root {
+  --primaryPurple: #646ff0;
+  --black-1: #646681;
+  --black-2: #585858;
+  --bg-1: #f8f8ff;
+  --bg-2: #ecedf6;
+  --bg-3: #cccdde;
+  --gray-1: #eee;
+  --gray-2: #dedfe1;
+  --black: black;
+  --white: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #646ff0;
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
