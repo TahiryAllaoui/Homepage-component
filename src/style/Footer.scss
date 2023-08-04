@@ -8,28 +8,41 @@
 footer {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     .footer-item {
         display: flex;
         gap: 0.5rem;
+        width: 30%;
+
+        img {
+            width: 50%;
+        }
 
         .inner-footer {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+            gap: 0.5rem;
+            width: 100%;
 
             h2 {
                 color: $Grayish-blue;
+                font-size: x-large;
                 padding: 0;
                 margin: 0;
             }
 
             a {
                 text-decoration: none;
-                color: $soft-red;
+                color: $Very-dark-blue;
                 font-family: 'Inter-Mid-bold';
                 padding: 0;
                 margin: 0;
+
+                &:hover {
+                    color: $soft-red;
+                }
             }
 
             p {
