@@ -1,0 +1,22 @@
+@import './color.scss';
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+
+    .navbar-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 50%;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: $soft-orange;
+            }
+        }
+    }
+}
