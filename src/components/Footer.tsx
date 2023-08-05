@@ -4,7 +4,7 @@ import gaming from '../assets/images/image-gaming-growth.jpg'
 import '../style/Footer.scss'
 
 const Footer = () => {
-    return <footer>
+    return <div className='foot'>
         <div className='footer-item'>
             <img src={retro} alt="" />
             <div className="inner-footer">
@@ -29,7 +29,7 @@ const Footer = () => {
                 <p>How the pandemic has sparked fresh opportunities</p>
             </div>
         </div>
-    </footer>
+    </div>
 };
 
 export default Footer;

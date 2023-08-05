@@ -1,11 +1,13 @@
 import '../style/Section.scss'
 import mainSection from '../assets/images/image-web-3-desktop.jpg'
+import mainSectionMobile from '../assets/images/image-web-3-mobile.jpg'
 
 const Section = () => {
 
-    return <section>
+    return <div className='sect'>
         <div className="main-section">
-            <img src={mainSection} alt="" style={{ width: '100%' }} />
+            <img src={mainSection} alt="" className='desktoppng' style={{ width: '100%' }} />
+            <img src={mainSectionMobile} alt="" className='mobilepng' />
             <div className="main-section-article">
                 <h2>The Bright Futur of Web 3.0?</h2>
                 <div className="inner-section-article">
@@ -36,7 +38,7 @@ const Section = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 };
 
 export default Section;

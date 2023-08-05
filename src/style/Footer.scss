@@ -5,7 +5,7 @@
     src: url('../assets/fonts/static/Inter-Bold.ttf');
 }
 
-footer {
+.foot {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -52,5 +52,18 @@ footer {
             }
 
         }
+    }
+}
+
+@media (max-width: 428px) {
+    .foot {
+        flex-direction: column;
+        gap: 2rem;
+
+        .footer-item {
+            width: 100%;
+            gap: 1rem;
+        }
+
     }
 }
