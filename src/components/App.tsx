@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className='app'>
+      <div id='back'></div>
       <Navbar />
       <Section />
       <Footer />

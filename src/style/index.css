@@ -27,3 +27,19 @@ body {
 * {
   font-family: 'Inter', sans-serif;
 }
+
+
+@media (max-width: 416px) {
+  :root {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+}
